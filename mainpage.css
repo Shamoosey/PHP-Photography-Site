@@ -48,6 +48,10 @@ nav ul li a:hover
 	padding: 0px 30px;
 	justify-content: center;
 }
+.paragraph-content
+{
+	margin: 0px 100px;
+}
 .image-heading
 {
 	display: flex;
@@ -66,6 +70,7 @@ h2
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
+	margin: 0px 0px 0px 0px;
 }
 .image-row
 {
