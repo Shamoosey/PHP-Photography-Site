@@ -1,0 +1,74 @@
+.header
+{
+	font-family: Oswald;
+	color: #f0efef;
+	background: #333;
+}
+.header h1
+{	
+	padding: 0px 20px;
+	font-size: 40px;
+	margin: auto;
+}
+body
+{
+	margin: 0;
+	background: #f0efef;
+	font-family: Quicksand;
+}
+nav ul
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin: 0px 20px;
+	padding: 0;
+}
+nav	ul li
+{
+	list-style: none;
+	margin: 0px 10px;
+}
+nav ul li a
+{
+	text-decoration: none;
+	color: #f0efef;
+	display: block;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+}
+nav ul li a:hover
+{
+	background: #222;
+}
+.paragraph-heading
+{
+	display: flex;
+	padding: 0px 30px;
+	justify-content: center;
+}
+.image-heading
+{
+	display: flex;
+	padding: 0px 30px;
+	justify-content: center;
+}
+h2
+{
+	font-family: Oswald;
+	color: #333;
+	font-size: 30px;
+	margin: 5px 0px;
+}
+.image-container
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.image-row
+{
+	margin: auto;
+	padding: 20px;
+}
