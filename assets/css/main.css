@@ -30,7 +30,7 @@ h2{
 	font-family: Oswald;
 	color: #333;
 	font-size: 30px;
-	margin: 5px 0px;
+	margin: 15px 0px;
 	text-align: center;
 	width: 100%;
 	border-bottom: 1px solid #333;
@@ -53,18 +53,13 @@ img{
 	color: #f0efef;
 	background: #333
 }
-<<<<<<< HEAD
 .paragraph-heading{
-=======
-.paragraph-heading
-{
->>>>>>> 311af250f71f87970116c07e721b56aca44b9665
 	display: flex;
 	padding: 0px 30px;
 	justify-content: center;
 }
 .paragraph-content{
-	margin: 0px 0px;
+	margin: 0px 100px;
 }
 .image-heading{
 	display: flex;
@@ -83,6 +78,9 @@ img{
 footer h1{
 	font-size: 10px;
 	margin: 0px 0px 10px 20px;
+}
+#aboutP p{
+	padding: 10px;
 }
 @media only screen and (max-width: 600px){
 	body{
