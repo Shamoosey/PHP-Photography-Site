@@ -1,24 +1,20 @@
-body
-{
+body{
 	margin: 0;
 	background: #f0efef;
 	font-family: Quicksand;
 }
-nav ul
-{
+nav ul{
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 	margin: 0px 20px;
 	padding: 0;
 }
-nav	ul li
-{
+nav	ul li{
 	list-style: none;
 	margin: 0px 10px;
 }
-nav ul li a
-{
+nav ul li a{
 	text-decoration: none;
 	color: #f0efef;
 	display: block;
@@ -26,13 +22,11 @@ nav ul li a
 	padding: 10px;
 	text-align: center;
 }
-nav ul li a:hover
-{
+nav ul li a:hover{
 	background: #222;
 	transition: 1s;
 }
-h2
-{
+h2{
 	font-family: Oswald;
 	color: #333;
 	font-size: 30px;
@@ -41,59 +35,68 @@ h2
 	width: 100%;
 	border-bottom: 1px solid #333;
 }
-img
-{
+img{
 	width: 500px;
 	height: auto;
 	max-width: 100%;
 }
-.header
-{
+.header{
 	font-family: Oswald;
 	color: #f0efef;
 	background: #333;
 }
-.header h1
-{	
+#mainHead{	
+	text-decoration: none;
 	padding: 0px 20px;
 	font-size: 40px;
 	margin: auto;
 	color: #f0efef;
 	background: #333
 }
-.footer h1
-{
-	
-}
-.paragraph-heading
-{
+.paragraph-heading{
 	display: flex;
 	padding: 0px 30px;
 	justify-content: center;
 }
-.paragraph-content
-{
+.paragraph-content{
 	margin: 0px 0px;
 }
-.image-heading
-{
+.image-heading{
 	display: flex;
 	padding: 0px 30px;
 	justify-content: center;
 }
-.image-container
-{
+.image-container{
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 }
-.image-row
-{
+.image-row{
 	margin: auto;
 	padding: 20px;
 }
-footer h1
-{
+footer h1{
 	font-size: 10px;
 	margin: 0px 0px 10px 20px;
+}
+@media only screen and (max-width: 600px){
+	body{
+		width: 100%;
+		min-width: 450px;
+	}
+	.image-container{
+		margin: auto;
+	}
+	#mainHead{
+		font-size: 50px;
+		text-decoration: none; 
+		color: #f0efef;
+		text-decoration: none; 
+		color: #f0efef;
+	}
+	header nav ul li a{
+		text-decoration: none; 
+		color: #f0efef;
+		font-size: 20px;
+	}
 }
