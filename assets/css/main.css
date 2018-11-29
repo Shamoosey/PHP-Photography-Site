@@ -53,7 +53,12 @@ img{
 	color: #f0efef;
 	background: #333
 }
+<<<<<<< HEAD
 .paragraph-heading{
+=======
+.paragraph-heading
+{
+>>>>>>> 311af250f71f87970116c07e721b56aca44b9665
 	display: flex;
 	padding: 0px 30px;
 	justify-content: center;
