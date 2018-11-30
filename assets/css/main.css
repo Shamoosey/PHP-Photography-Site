@@ -85,10 +85,13 @@ footer h1{
 @media only screen and (max-width: 600px){
 	body{
 		width: 100%;
-		min-width: 450px;
+		min-width: 300px;
 	}
 	.image-container{
 		margin: auto;
+	}
+	.paragraph-heading h2{
+		font-size: 30px;
 	}
 	#mainHead{
 		font-size: 50px;
