@@ -85,7 +85,7 @@ footer h1{
 @media only screen and (max-width: 600px){
 	body{
 		width: 100%;
-		min-width: 300px;
+		min-width: 425px;
 	}
 	.image-container{
 		margin: auto;
