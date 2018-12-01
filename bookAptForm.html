@@ -10,8 +10,8 @@
     </head>
     <body>
         <div class="header">
-            <a id="mainHead" href="index.html">Shamus Photography</a>
             <header>
+                <a id="mainHead" href="index.html">Shamus Photography</a>
                 <nav>
                     <ul>
                         <li><a href="about.html">About</a></li>
@@ -21,78 +21,76 @@
                 </nav>
             </header>
         </div>
+        <div class="paragraph-heading">
+                <h2>Personal Information</h2>
+        </div>
         <form id="orderform"
              action="http://stungeye.com/school/webdev/thankyou.php"
              method="post">
-            <fieldset id="paymentInfo">
-                <div class="shipping">
-                    <h2>Personal Information</h2>
-                        <ul>
-                            <li>
-                                <label for="fName">First Name</label>
-                                    <input id="fName" name="fName" type="text" />
-                                    <p class="addressError error" id="fName_error">* Required field</p>
-                                </li>
-                                <li>
-                                    <label for="lName">Last Name</label>
-                                    <input id="lName" name="lName" type="text" />
-                                    <p class="addressError error" id="lName_error">* Required field</p>
-                                    </li>
-                                <li>
-                                    <label for="address">Address</label>
-                                    <input id="address" name="address" type="text" />
-                                    <p class="addressError error" id="address_error">* Required field</p>
-                                </li>
-                                <li>
-                                    <label for="city">City</label>
-                                    <input id="city" name="city" type="text" />
-                                    <p class="addressError error" id="city_error">* Required field</p>
-                                </li>
-                                <li>
-                                    <label for="province">Province</label>
-                                    <select id="province" name="province">
-                                        <option selected ="true" disabled="disabled" value=""></option>
-                                        <option value="AB">Alberta</option>
-                                        <option value="BC">British Columbia</option>
-                                        <option value="MB">Manitoba</option>
-                                        <option value="NB">New Brunswick</option>
-                                        <option value="NL">Newfoundland and Labrador</option>
-                                        <option value="NS">Nova Scotia</option>
-                                        <option value="ON">Ontario</option>
-                                        <option value="PE">Prince Edward Island</option>
-                                        <option value="QC">Quebec</option>
-                                        <option value="SK">Saskatchewan</option>
-                                        <option value="NT">Northwest Territories</option>
-                                        <option value="NU">Nunavut</option>
-                                        <option value="YT">Yukon</option>
-                                    </select>
-                                    <p class="addressError error" id="province_error">* Required field</p>
-                                </li>
-                                <li>
-                                    <label for="postal">Postal Code</label>
-                                    <input id="postal" name="postal" type="text" />
-                                    <p class="addressError error" id="postal_error">* Required field</p>
-                                    <p class="addressError error" id="postalformat_error">* Invalid postal code</p>
-                                </li>
-                                <li>
-                                    <label for="email">Email</label>
-                                    <input id="email" name="email" type="text" />
-                                    <p class="addressError error" id="email_error">* Required field</p>
-                                    <p class="addressError error" id="emailformat_error">* Invalid email address</p>
-                                </li>
-                                <li>
-                                    <label for="phone">Phone Number</label>
-                                    <input id="phone" name="phone" type="text" />
-                                    <p class="addressError error" id="phone_error">* Required field</p>
-                                    <p class="addressError error" id="phoneformat_error">* Invalid phone number</p>
-                                </li>                               
-                            </ul>
-                    <div class="clear">
-                        <button type="submit" id="submit">Book Appointment</button>
-                        <button type="reset" id="clear">Reset Fields</button>
-                    </div>
-                </div>
-            </fieldset>
+            <ul>
+                <li>
+                    <label for="fName">First Name:</label>
+                    <input id="fName" name="fName" type="text" />
+                    <p class="addressError error" id="fName_error">* Required field</p>
+                </li>
+                <li>
+                    <label for="lName">Last Name:</label>
+                    <input id="lName" name="lName" type="text" />
+                    <p class="addressError error" id="lName_error">* Required field</p>
+                </li>
+                <li>
+                    <label for="address">Address:</label>
+                    <input id="address" name="address" type="text" />
+                    <p class="addressError error" id="address_error">* Required field</p>
+                </li>
+                <li>
+                    <label for="city">City:</label>
+                    <input id="city" name="city" type="text" />
+                    <p class="addressError error" id="city_error">* Required field</p>
+                </li>
+                <li>
+                    <label for="province">Province:</label>
+                    <select id="province" name="province">
+                        <option selected="true" disabled="disabled" value=""></option>
+                        <option value="AB">Alberta</option>
+                        <option value="BC">British Columbia</option>
+                        <option value="MB">Manitoba</option>
+                        <option value="NB">New Brunswick</option>
+                        <option value="NL">Newfoundland & Labrador</option>
+                        <option value="NS">Nova Scotia</option>
+                        <option value="ON">Ontario</option>
+                        <option value="PE">Prince Edward Island</option>
+                        <option value="QC">Quebec</option>
+                        <option value="SK">Saskatchewan</option>
+                        <option value="NT">Northwest Territories</option>
+                        <option value="NU">Nunavut</option>
+                        <option value="YT">Yukon</option>
+                    </select>
+                    <p class="addressError error" id="province_error">* Required field</p>
+                </li>
+                <li>
+                    <label for="postal">Postal Code:</label>
+                    <input id="postal" name="postal" type="text" />
+                    <p class="addressError error" id="postal_error">* Required field</p>
+                    <p class="addressError error" id="postalformat_error">* Invalid postal code</p>
+                </li>
+                <li>
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" type="text" />
+                    <p class="addressError error" id="email_error">* Required field</p>
+                    <p class="addressError error" id="emailformat_error">* Invalid email address</p>
+                </li>
+                <li>
+                    <label for="phone">Phone Number:</label>
+                    <input id="phone" name="phone" type="text" />
+                    <p class="addressError error" id="phone_error">* Required field</p>
+                    <p class="addressError error" id="phoneformat_error">* Invalid phone number</p>
+                </li>
+            </ul>
+            <div class="clear">
+                <button type="submit" id="submit">Book Appointment</button>
+                <button type="reset" id="clear">Reset Fields</button>
+            </div>
         </form>
     </body>
 </html>

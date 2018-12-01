@@ -51,10 +51,11 @@ function formHasErrors()
 	for(let i = 0; i < requireTextFields.length; i++){
         console.log(i);
 		var textField = document.getElementById(requireTextFields[i])
+		
 		if(!hasInput(textField)){
 			//display correct error message
 			document.getElementById(requireTextFields[i] + "_error").style.display = "block";
-
+			document.getElementById(requireTextFields[i]).style.border = "0.75px red solid";
 			if(!errorFlag && (i != 3)){
 				textField.focus();
 			}
@@ -62,6 +63,7 @@ function formHasErrors()
 			errorFlag = true;
 		} else {
 			document.getElementById(requireTextFields[i] + "_error").style.display = "none";
+			document.getElementById(requireTextFields[i]).style.border = "none";
 		}
 	}
 	
@@ -70,7 +72,7 @@ function formHasErrors()
 	let postalCodeFieldValue = document.getElementById("postal").value;
 	if(!postalRegex.test(postalCodeFieldValue)){
 		document.getElementById("postalformat_error").style.display = "block";
-
+		document.getElementById("postal").style.border = "0.75px red solid";
 		if(!errorFlag){
 			document.getElementById("postal").focus();
 		}
@@ -85,6 +87,7 @@ function formHasErrors()
 	let emailFieldValue = document.getElementById("email").value;
 	if(!emailRegex.test(emailFieldValue)){
 		document.getElementById("emailformat_error").style.display = "block";
+		document.getElementById("email").style.border = "0.75px red solid";
 		if(!errorFlag){
 			document.getElementById("email").focus();
 		}
@@ -97,7 +100,8 @@ function formHasErrors()
     let phoneRegex = new RegExp(/^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$/);
     let phoneFieldValue = document.getElementById("phone").value;
     if(!phoneRegex.test(phoneFieldValue)){
-        document.getElementById("phoneformat_error").style.display = "block";
+		document.getElementById("phoneformat_error").style.display = "block";
+		document.getElementById("phone").style.border = "0.75px red solid";
 		if(!errorFlag){
 			document.getElementById("phone").focus();
 		}
