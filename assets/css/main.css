@@ -102,7 +102,7 @@ form ul li label{
 form ul li select, form ul li input{
 	width: 225px;
 	padding: 5px;
-	border:0.16em solid rgba(255,255,255,0);
+	border: 0.75px solid #333;
 	border-radius:1em;
 }
 form ul li p{
