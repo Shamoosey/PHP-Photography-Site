@@ -64,7 +64,7 @@ function formHasErrors()
 			errorFlag = true;
 		} else {
 			document.getElementById(requireTextFields[i] + "_error").style.display = "none";
-			document.getElementById(requireTextFields[i]).style.border = "0.75px solid #333";
+			document.getElementById(requireTextFields[i]).style.border = "0.75px #333 solid";
 		}
 	}
 	
@@ -80,7 +80,7 @@ function formHasErrors()
 		errorFlag = true;
 	} else {
 		document.getElementById("emailformat_error").style.display = "none";
-		document.getElementById("email").style.border = "0.75px solid #333";
+		document.getElementById("email").style.border = "0.75px #333 solid";
     }
     
     //validating the phone number
@@ -95,7 +95,7 @@ function formHasErrors()
 		errorFlag = true;
 	} else {
 		document.getElementById("phoneformat_error").style.display = "none";
-		document.getElementById("phone").style.border = "0.75px solid #333";
+		document.getElementById("phone").style.border = "0.75px #333 solid";
     }
     return errorFlag;
 	//Validating the card type to confirm a value is selected
@@ -113,7 +113,7 @@ function hideErrors()
 		errorFields[i].style.display ="none";
 	}
 	for(let i = 0; i < requireTextFields.length; i++){
-		document.getElementById(requireTextFields[i]).style.border = "0.75px solid #333";
+		document.getElementById(requireTextFields[i]).style.border = "0.75px #333 solid";
 	}
 }
 
