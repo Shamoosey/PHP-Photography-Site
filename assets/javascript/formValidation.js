@@ -1,3 +1,4 @@
+let requireTextFields = ["fName", "lName", "address", "city", "province", "email", "phone"];
 /*
  * Handles the submit event of the form
  */
@@ -45,8 +46,8 @@ function resetForm(e){
 //Checks the form for any errors and returns a value based on that
 function formHasErrors()
 {
+	
 	var errorFlag = false;
-    let requireTextFields = ["fName", "lName", "address", "city", "province", "postal", "email", "phone"]
     //validating all of the text fields to confirm the have options
 	for(let i = 0; i < requireTextFields.length; i++){
         console.log(i);
@@ -63,25 +64,10 @@ function formHasErrors()
 			errorFlag = true;
 		} else {
 			document.getElementById(requireTextFields[i] + "_error").style.display = "none";
-			document.getElementById(requireTextFields[i]).style.border = "none";
+			document.getElementById(requireTextFields[i]).style.border = "0.75px solid #333";
 		}
 	}
 	
-	//validating the postal code to confirm it is valid
-	let postalRegex = new RegExp(/^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$/);
-	let postalCodeFieldValue = document.getElementById("postal").value;
-	if(!postalRegex.test(postalCodeFieldValue)){
-		document.getElementById("postalformat_error").style.display = "block";
-		document.getElementById("postal").style.border = "0.75px red solid";
-		if(!errorFlag){
-			document.getElementById("postal").focus();
-		}
-
-		errorFlag = true;
-	} else {
-		document.getElementById("postalformat_error").style.display = "none";
-	}
-
 	//validating the email to confirm its valid
 	let emailRegex = new RegExp(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
 	let emailFieldValue = document.getElementById("email").value;
@@ -94,6 +80,7 @@ function formHasErrors()
 		errorFlag = true;
 	} else {
 		document.getElementById("emailformat_error").style.display = "none";
+		document.getElementById("email").style.border = "0.75px solid #333";
     }
     
     //validating the phone number
@@ -108,6 +95,7 @@ function formHasErrors()
 		errorFlag = true;
 	} else {
 		document.getElementById("phoneformat_error").style.display = "none";
+		document.getElementById("phone").style.border = "0.75px solid #333";
     }
     return errorFlag;
 	//Validating the card type to confirm a value is selected
@@ -123,6 +111,9 @@ function hideErrors()
 
 	for(let i = 0; i < errorFields.length; i++){
 		errorFields[i].style.display ="none";
+	}
+	for(let i = 0; i < requireTextFields.length; i++){
+		document.getElementById(requireTextFields[i]).style.border = "0.75px solid #333";
 	}
 }
 

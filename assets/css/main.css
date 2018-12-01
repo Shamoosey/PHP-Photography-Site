@@ -94,7 +94,7 @@ form ul{
 	margin:auto;
 }
 form ul li{
-	margin: 10px 0px 0px 0px;
+	margin: 5px 0px 0px 0px;
 }
 form ul li label{
 	display: flex;
@@ -141,6 +141,10 @@ button:hover{
 }
 @media only screen and (max-width: 600px){
 	body{
+		width: 100%;
+		min-width: 425px;
+	}
+	html{
 		width: 100%;
 		min-width: 425px;
 	}
