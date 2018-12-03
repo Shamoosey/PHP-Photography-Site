@@ -3,18 +3,18 @@ body{
 	background: #f0efef;
 	font-family: Quicksand;
 }
-nav ul{
+header nav ul{
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 	margin: 0px 20px;
 	padding: 0;
 }
-nav	ul li{
+header nav	ul li{
 	list-style: none;
 	margin: 0px 10px;
 }
-nav ul li a{
+header nav ul li a{
 	text-decoration: none;
 	color: #f0efef;
 	display: block;
@@ -22,7 +22,7 @@ nav ul li a{
 	padding: 10px;
 	text-align: center;
 }
-nav ul li a:hover{
+header nav ul li a:hover{
 	background: #222;
 	transition: 1s;
 }
@@ -31,7 +31,8 @@ h2{
 	color: #333;
 	font-size: 30px;
 	margin: 15px 0px;
-	text-align: center;
+	display: flex;
+	justify-content: center;
 	width: 100%;
 	border-bottom: 1px solid #333;
 }
@@ -49,7 +50,6 @@ img{
 	text-decoration: none;
 	padding: 0px 20px;
 	font-size: 40px;
-	margin: auto;
 	color: #f0efef;
 	background: #333
 }
@@ -58,7 +58,7 @@ img{
 	padding: 0px 30px;
 	justify-content: center;
 }
-.paragraph-content{
+	.paragraph-content{
 	margin: 0px 100px;
 }
 .heading{
@@ -75,18 +75,40 @@ img{
 	margin: auto;
 	padding: 20px;
 }
+footer nav ul{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
 footer{
 	width: 100%;
+	display: table;
 	text-align: center;
-	margin-top: 20px;
+	margin: 0 auto;
+}
+footer nav ul li{
+	font-size: 15px; 
+	margin: 0px 5px 0px 5px;
+}
+footer nav ul li:last-child{
+	margin-left:5px;
+}
+footer nav ul li:first-child{
+	margin-right: 5px;
+}
+footer nav ul li a{
+	text-decoration: none;
+	color: #333;
 }
 footer h1{
 	font-size: 10px;
+	margin: auto;
 }
 form{
 	display: flex;
 	flex-direction: column;
-	justify-content: center
+	justify-content: center;
 }
 form ul{
 	display: flex;
@@ -95,7 +117,7 @@ form ul{
 	margin:auto;
 }
 form ul li{
-	margin: 5px 0px 0px 0px;
+margin: 5px 0px 0px 0px;
 }
 form ul li label{
 	display: flex;
