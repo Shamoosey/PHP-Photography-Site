@@ -126,17 +126,4 @@ function load()
 	document.getElementById("submit").addEventListener("click", validate);
 	document.getElementById("clear").addEventListener("click", resetForm);
 }
-
 document.addEventListener("DOMContentLoaded", load);
-
-
-
-
-
-
-
-
-
-
-
-

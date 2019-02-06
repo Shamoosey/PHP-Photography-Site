@@ -1,29 +1,13 @@
+<?php 
+	include "header.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-	<link rel="icon" type = "image/png" href="assets/imgs/1600.png">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Shamus Photography</title>
-</head>
 <body>
-	<div class="header">
-		<header>
-			<a id="mainHead" href="index.html">Shamus Photography</a>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="bookAptForm.html">Book a Shoot</a></li>
-				</ul>
-			</nav>
-		</header>
-	</div>
 
 	<div class="heading">
-			<h2>Nature</h2>
+	<div id="nature"><a name="nature"></a></div>
+			<h2 name="n">Nature</h2>
 	</div>
 
 		<div class="image-container">
@@ -64,11 +48,10 @@
 				<img src="assets/imgs/nature/09900019.JPG" alt="sunset with river">
 			</div>
 		</div>
-
 		<div class="heading">
-			<h2>Buildings</h2>
+		<div id="buildings"><a name="buildings"></a></div>	
+			<h2 name="buildings">Buildings</h2>
 		</div>
-
 		<div class="image-container">
 			<div class="image-row">
 				<img src="assets/imgs/city/19000011.JPG" alt="curved building">
@@ -107,19 +90,6 @@
 				<img src="assets/imgs/city/19000018.JPG" alt="old buildings">
 			</div>
 		</div>
-
-		<div class="footer">
-			<footer>
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="bookAptForm.html">Book a Shoot</a></li>
-						<li><a href="https://www.instagram.com/shamuso23">Instagram</a></li>
-					</ul>
-				</nav>
-				<h1>Copyright &copy;2017-2018 Shamus Osler, All Rights Reserved</h1>
-			</footer>
-		</div>
+	<?php include "footer.php"; ?>
 </body>
 </html>

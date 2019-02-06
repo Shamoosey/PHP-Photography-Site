@@ -21,11 +21,13 @@ header nav ul li a{
 	width: 100%;
 	padding: 10px;
 	text-align: center;
+	font-size: 16px;
 }
 header nav ul li a:hover{
 	background: #222;
 	transition: 1s;
 }
+.show {display:block;}
 h2{
 	font-family: Oswald;
 	color: #333;
@@ -46,7 +48,7 @@ img{
 	color: #f0efef;
 	background: #333;
 }
-#mainHead{	
+.mainHead{	
 	text-decoration: none;
 	padding: 0px 20px;
 	font-size: 40px;
@@ -58,7 +60,7 @@ img{
 	padding: 0px 30px;
 	justify-content: center;
 }
-	.paragraph-content{
+.paragraph-content{
 	margin: 0px 100px;
 }
 .heading{
@@ -143,7 +145,7 @@ form ul li p{
 .clear button{
 	margin: 10px 5px 0px 5px;
 }
-button{
+#submit, #clear{
 	display:inline-block;
 	padding:0.6em 1.5em;
 	margin:0 0.1em 0.1em 0;
@@ -177,7 +179,7 @@ button:hover{
 	.paragraph-heading h2{
 		font-size: 30px;
 	}
-	#mainHead{
+	.mainHead{
 		font-size: 50px;
 		text-decoration: none; 
 		color: #f0efef;

@@ -1,27 +1,10 @@
+<?php 
+	include "header.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-        <link rel="icon" type = "image/png" href="assets/imgs/1600.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script type="text/javascript" src="assets/javascript/formValidation.js" defer></script>
-        <title>Shamus Photography</title>
-    </head>
     <body>
-        <div class="header">
-            <header>
-                <a id="mainHead" href="index.html">Shamus Photography</a>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="bookAptForm.html">Book a Shoot</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
+    <script type="text/javascript" src="assets/javascript/formValidation.js"></script>
         <div class="paragraph-heading">
                 <h2>Personal Information</h2>
         </div>
@@ -91,18 +74,6 @@
                 <button type="reset" id="clear">Reset Fields</button>
             </div>
         </form>
-        <div class="footer">
-            <footer>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="bookAptForm.html">Book a Shoot</a></li>
-                        <li><a href="https://www.instagram.com/shamuso23">Instagram</a></li>
-                    </ul>
-                </nav>
-                <h1>Copyright &copy;2017-2018 Shamus Osler, All Rights Reserved </h1>
-            </footer>
-        </div>
+        <?php include "footer.php"; ?>
     </body>
 </html>
