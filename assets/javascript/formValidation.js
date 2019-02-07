@@ -1,4 +1,4 @@
-let requireTextFields = ["fName", "lName", "address", "city", "province", "email", "phone"];
+let requireTextFields = ["fName", "lName", "email", "phone"];
 /*
  * Handles the submit event of the form
  */

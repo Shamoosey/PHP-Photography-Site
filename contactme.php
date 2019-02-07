@@ -6,11 +6,13 @@
     <body>
     <script type="text/javascript" src="assets/javascript/formValidation.js"></script>
         <div class="paragraph-heading">
-                <h2>Personal Information</h2>
+                <h2>Contact Me</h2>
         </div>
-        <form id="orderform"
-             action="https://youtu.be/3uIcXRbZ458"
-             >
+        <h3>
+            NOTE, this form does not submit to any sort of email, Its purly cosmetic. 
+            This will be implemented at a later date.
+        </h3>
+        <form id="orderform" action="index.php">
             <ul>
                 <li>
                     <label for="fName">First Name:</label>
@@ -21,36 +23,6 @@
                     <label for="lName">Last Name:</label>
                     <input id="lName" name="lName" type="text" />
                     <p class="addressError error" id="lName_error">* Required field</p>
-                </li>
-                <li>
-                    <label for="address">Address:</label>
-                    <input id="address" name="address" type="text" />
-                    <p class="addressError error" id="address_error">* Required field</p>
-                </li>
-                <li>
-                    <label for="city">City:</label>
-                    <input id="city" name="city" type="text" />
-                    <p class="addressError error" id="city_error">* Required field</p>
-                </li>
-                <li>
-                    <label for="province">Province:</label>
-                    <select id="province" name="province">
-                        <option selected disabled="disabled" value="">--------SELECT--------</option>
-                        <option value="AB">Alberta</option>
-                        <option value="BC">British Columbia</option>
-                        <option value="MB">Manitoba</option>
-                        <option value="NB">New Brunswick</option>
-                        <option value="NL">Newfoundland & Labrador</option>
-                        <option value="NS">Nova Scotia</option>
-                        <option value="ON">Ontario</option>
-                        <option value="PE">Prince Edward Island</option>
-                        <option value="QC">Quebec</option>
-                        <option value="SK">Saskatchewan</option>
-                        <option value="NT">Northwest Territories</option>
-                        <option value="NU">Nunavut</option>
-                        <option value="YT">Yukon</option>
-                    </select>
-                    <p class="addressError error" id="province_error">* Required field</p>
                 </li>
                 <li>
                     <label for="email">Email:</label>
