@@ -242,6 +242,9 @@ button:hover{
 		font-size: 20px;
 	}
 	h3{
-		min-width: 425px;
+		width: 400px;
+	}
+	.idex-paragraph-content{
+		width: 400px;
 	}
 }
