@@ -16,9 +16,7 @@
 	<div class="idex-paragraph-content">
 		<p>
 			Please note that all of the pictures displayed on this website
-			are taken by Shamus Osler. If you would like to use any of these photos
-			you can email me at shamuso23@gmail.com.
-		</p>
+			are taken by Shamus Osler.
 	</div>
 		<div class="heading">
 		<div id="nature"><a name="nature"></a></div>
