@@ -1,0 +1,82 @@
+ul{
+   list-style: none; 
+   border: 1.5px solid #eaece5;
+   width: 600px;
+   margin: 15px auto;
+   background-color: #eaece5;
+} 
+h1{
+    width: 500px;
+    text-align: center;
+    margin: 10px auto;
+    color: #eaece5;
+    font-family: 'Oswald', sans-serif;
+}
+h2{
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+#nopost{
+    margin: 10px auto;
+    width: 600px;
+    font-size: 20px;
+}
+h3{
+    color: #eaece5;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+    font-family: 'Oswald', sans-serif;
+}
+#form{
+    margin: 10px auto;
+    padding: 15px;
+    text-align: center;
+    background-color: #eaece5;
+    width: 450px;
+}
+#form label{
+    position: relative;
+    display: block;
+    padding: 5px 10px;
+}
+#form input{
+    padding: 5px;
+}
+#form textarea{
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+}
+#form button{
+    padding: 5px;
+}
+h3:hover{
+    background-color: #eaece5;
+    color: #3e4444;
+    font-size: 20px;
+    transition: .5s;
+}
+#post{
+    width: 500px;
+    word-wrap: break-word;
+    margin: 15px;
+    border: 1.5px solid #3e4444;
+    padding: 10px;
+}
+html, body{
+    margin: 10px;
+    background-color: #3e4444;
+    font-family: 'Slabo 27px';
+}
+#error{
+    background-color: #eaece5;
+    color: #3e4444;
+    margin: auto;
+    text-align: center;
+    width: 400px;
+}
+#error h3{
+    color:#3e4444;
+    width: 200px;
+}

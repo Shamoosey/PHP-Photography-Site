@@ -16,8 +16,11 @@
 	<div class="idex-paragraph-content">
 		<p>
 			Please note that all of the pictures displayed on this website
-			are taken by Shamus Osler. If you would like to use any of these photos
-			you can email me at shamuso23@gmail.com.
+			are taken by Shamus Osler.
+		</p>
+		<p>
+			You can look at the code and projects on this site thought my <a href="https://github.com/Shamoosey/shamoosey.github.io">Github</a>.
+			Please note that the projects are not mobile compatible. 
 		</p>
 	</div>
 		<div class="heading">

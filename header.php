@@ -11,14 +11,25 @@
 			<nav>
 				<ul>
 					<li><a href="index.php">Home</a></li>
-					<li><a href="about.php">About</a></li>
-					<li><a href="contactme.php">Contact Me</a></li>
+					<div class="dropdown">
+						<li><a href="#" class="drop">About</a></li>
+						<div class="dropdown-content">
+						<a href="about.php">About</a>
+							<a href="contactme.php">Contact Me</a>
+						</div>
+					</div>
 					<div class="dropdown">
 						<li><a href="#" class="drop">Pictures</a></li>
 						<div class="dropdown-content">
 							<a href="#nature">Nature</a>
 							<a href="#urban">Urban</a>
-							<a href="#">Misc</a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<li><a href="#" class="drop">Projects</a></li>
+						<div class="dropdown-content">
+							<a href="Blog/index.php">Blog</a>
+							<a href="StreetClosures/index.html">Winnipeg Street Closures</a>
 						</div>
 					</div>
 				</ul>

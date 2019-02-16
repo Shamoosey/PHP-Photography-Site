@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Street Closures</title>
+    <link rel="stylesheet" href="assets/main.css">
+    <script src="assets/main.js"></script>
+</head>
+<body>
+    <h1>Winnipeg Street Closures</h1>
+    <h2>Search for street closures based on the street</h2>
+    <label for="searchBox">Search for closed streets</label>
+    <input name="searchBox" id="searchBox" type="text" placeholder="Street Name" autofocus/>
+    <button id="searchbtn">Search</button>
+    <button id="clearbtn">Clear</button>
+    <Button id="homebtn">Home</Button>
+    <p id="noResults"></p>
+    <table id="table">
+        <thead id="thead">
+            <tr>
+                <th>Closure ID</th>
+                <th>Street Boundaries</th>
+                <th>Primary Street</th>
+                <th>Cross Street</th>
+                <th>Date Closed From</th>
+                <th>Date Close To</th>
+                <th>Direction</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+    <footer>Street data provided by the <a href="https://data.winnipeg.ca/">City of Winnipeg Open Data catalogue</a>.</footer>
+</body>
+</html>
