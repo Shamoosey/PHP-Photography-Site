@@ -17,11 +17,14 @@
 		<p>
 			Please note that all of the pictures displayed on this website
 			are taken by Shamus Osler.
+<<<<<<< HEAD
 		</p>
 		<p>
 			You can look at the code and projects on this site thought my <a href="https://github.com/Shamoosey/shamoosey.github.io">Github</a>.
 			Please note that the projects are not mobile compatible. 
 		</p>
+=======
+>>>>>>> c52fc06db8d411fc39474bb2138238deb38fd470
 	</div>
 		<div class="heading">
 		<div id="nature"><a name="nature"></a></div>

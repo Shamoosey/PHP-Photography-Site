@@ -40,7 +40,11 @@ header nav ul li a:hover{
 	display: none;
 	position: absolute;
 	background-color: #f0efef;
+<<<<<<< HEAD
 	width: 100px;
+=======
+	width: 140px;
+>>>>>>> c52fc06db8d411fc39474bb2138238deb38fd470
 	box-shadow: 0px 8px 16px 0px rgba(39, 39, 39, 0.884);
 }
 .dropdown-content a {
@@ -52,6 +56,7 @@ header nav ul li a:hover{
 .dropdown-content a:hover {
 	background-color: #d6d6d6;
 	transition: .5s;
+	width: 100px;
 }
 .dropdown:hover .dropdown-content {
 	display: block;
