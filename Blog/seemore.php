@@ -8,6 +8,7 @@
     $rowCount = $queryBlog -> rowCount();
     $postDate = substr($post[0]['postdate'], 0, 10);
     $postTime = date('h:i a', strtotime(substr($post[0]['postdate'], 11, 8)));
+	
     if($rowCount < 1){
         header("location:index.php");
     }
@@ -27,7 +28,7 @@
         <ul>
             <div id="post">
                 <h2><?= $post[0]['title'] ?></h2>
-                <p style="font-size: 13px; margin: 0px 0px 10px 0px;"> <?=$postDate ?>, <?= $postTime ?> - <a href="editpost.php?id=<?=$post['postid']?>">edit</a></p>
+                <p style="font-size: 13px; margin: 0px 0px 10px 0px;"> <?=$postDate ?>, <?= $postTime ?> - <a href="editpost.php?id=<?=$post[0]['postid']?>">edit</a></p>
                 <li><?=$post[0]['content']?></li>
             </div>
         </ul>
