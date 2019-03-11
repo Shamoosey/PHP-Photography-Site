@@ -1,8 +1,6 @@
-<?php 
-	include "header.php";
-?>
 <!DOCTYPE html>
 <html lang="en">
+<?php include "header.php"; ?>
 <body>
 	<div class="heading">
 			<h2>About Me</h2>

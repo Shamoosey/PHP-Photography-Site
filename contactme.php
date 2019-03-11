@@ -1,8 +1,6 @@
-<?php 
-	include "header.php";
-?>
 <!DOCTYPE html>
 <html lang="en">
+<?php include "header.php";?>
     <body>
     <script type="text/javascript" src="assets/javascript/formValidation.js"></script>
         <div class="paragraph-heading">

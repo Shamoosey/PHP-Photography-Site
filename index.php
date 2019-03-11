@@ -1,5 +1,4 @@
 <?php 
-	include "header.php";
 	//counting the amount of files in the dir
 	$city = new FilesystemIterator("assets/imgs/city", FilesystemIterator::SKIP_DOTS);
 	$city = iterator_count($city);
@@ -12,6 +11,7 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
+<?php include "header.php";?>
 <body>
 	<div class="idex-paragraph-content">
 		<p>
