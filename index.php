@@ -11,9 +11,10 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php include "header.php";?>
+<?php require "head.php" ?>
 <body>
-	<div class="idex-paragraph-content">
+	<?php require "header.php" ?>
+	<div class="index-paragraph-content">
 		<p>
 			Please note that all of the pictures displayed on this website
 			are taken by Shamus Osler.
@@ -24,24 +25,26 @@
 		</p>
 	</div>
 		<div class="heading">
-		<div id="nature"><a name="nature"></a></div>
+			<div id="nature">
 				<h2>Nature</h2>
+			</div>
 		</div>
 		<div class="image-container">
 			<?php for($i = 1; $i < $nature; $i++) : ?>
 				<div class="image-row">
-					<img src="assets/imgs/nature/nature (<?=$i?>).JPG" alt="nature photos">
+					<img src="assets/imgs/nature/<?=$i?>.JPG" alt="nature photos">
 				</div>
 			<?php endfor ?>
 		</div>
 		<div class="heading">
-			<div id="urban"><a name="urban"></a></div>	
-			<h2>Urban</h2>
+			<div id="Urban">
+				<h2>Urban</h2>
+			</div>
 		</div>
 		<div class="image-container">
 			<?php for($i = 1; $i < $city; $i++) : ?>
 				<div class="image-row">
-					<img src="assets/imgs/city/urban (<?=$i?>).JPG" alt="city/urban photos">
+					<img src="assets/imgs/city/<?=$i?>.JPG" alt="city/urban photos">
 				</div>
 			<?php endfor ?>
 		</div>

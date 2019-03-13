@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include "header.php";?>
+    <?php require "head.php" ?>
     <body>
-    <script type="text/javascript" src="assets/javascript/formValidation.js"></script>
+        <?php require  "header.php" ?>
+        <script src="assets/javascript/formValidation.js"></script>
         <div class="paragraph-heading">
                 <h2>Contact Me</h2>
         </div>
@@ -44,6 +45,6 @@
                 <button type="reset" id="clear">Reset Fields</button>
             </div>
         </form>
-        <?php include "footer.php"; ?>
+        <?php include "footer.php" ?>
     </body>
 </html>
