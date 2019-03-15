@@ -45,6 +45,6 @@
                 <button type="reset" id="clear">Reset Fields</button>
             </div>
         </form>
-        <?php include "footer.php" ?>
+        <?php require "footer.php" ?>
     </body>
 </html>

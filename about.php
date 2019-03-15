@@ -18,6 +18,6 @@
 				Please remember that this website is a work in progress and is being changed over time.
 			</p>
 		</div>
-		<?php include "footer.php" ?>
+		<?php require "footer.php" ?>
 	</body>
 </html>

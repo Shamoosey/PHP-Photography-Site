@@ -1,3 +1,9 @@
+/*
+* This is a website created by shamus osler
+* last update: 2019-03-15
+*/
+
+
 <?php 
 	//counting the amount of files in the dir
 	$city = new FilesystemIterator("assets/imgs/city", FilesystemIterator::SKIP_DOTS);
@@ -37,7 +43,7 @@
 			<?php endfor ?>
 		</div>
 		<div class="heading">
-			<div id="Urban">
+			<div id="urban">
 				<h2>Urban</h2>
 			</div>
 		</div>
@@ -48,6 +54,6 @@
 				</div>
 			<?php endfor ?>
 		</div>
-	<?php include "footer.php"; ?>
+	<?php require "footer.php" ?>
 </body>
 </html>
