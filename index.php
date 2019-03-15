@@ -1,9 +1,3 @@
-/*
-* This is a website created by shamus osler
-* last update: 2019-03-15
-*/
-
-
 <?php 
 	//counting the amount of files in the dir
 	$city = new FilesystemIterator("assets/imgs/city", FilesystemIterator::SKIP_DOTS);
